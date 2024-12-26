@@ -1,0 +1,7 @@
+{
+  "posts": [
+    { "id": 1, "title": "Hello World", "content": "This is a post" },
+    { "id": 2, "title": "Hello World", "content": "This is a post" },
+    { "id": 3, "title": "Hello World", "content": "This is a post" }
+  ]
+}
