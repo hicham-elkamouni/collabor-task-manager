@@ -1,0 +1,11 @@
+.content-layout {
+  padding: 2.4rem;
+  height: 95vh;
+  overflow-y: scroll;
+  width: 100%;
+}
+
+.content-container {
+  display: grid;
+  gap: 2.4rem;
+}

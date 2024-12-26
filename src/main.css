@@ -1,0 +1,62 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%; /* 1rem = 10px; 10px/16px = 62.5% */
+}
+
+body {
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  color: #2b2f32;
+}
+
+.header {
+  font-size: 2rem;
+}
+
+.content__section-header {
+  display: flex;
+  justify-content: space-between;
+}
+.content__section-title {
+  color: #2b2f32;
+  font-weight: 700;
+  font-size: 2.4rem;
+}
+
+.back-button {
+  color: #808285;
+  background: none;
+  border: none;
+  font-size: 1.4rem;
+  text-decoration: none;
+  text-underline-offset: 0.2rem;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+}
+
+.content-layout {
+  padding: 2.4rem;
+  height: 95vh;
+  overflow-y: scroll;
+  width: 100%;
+}
+
+.content-container {
+  display: grid;
+  gap: 2.4rem;
+}
+
+/*# sourceMappingURL=main.css.map */
