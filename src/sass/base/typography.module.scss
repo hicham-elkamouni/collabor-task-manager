@@ -1,0 +1,10 @@
+@use "../abstracts/variables";
+
+body {
+  font-family: "Inter", sans-serif;
+  color: variables.$color-black;
+}
+
+.header {
+  font-size: 2rem;
+}
