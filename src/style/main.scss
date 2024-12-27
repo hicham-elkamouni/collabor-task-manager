@@ -4,8 +4,10 @@
 @use "base/typography";
 
 @use "components/content-section";
+@use "components/table";
+@use "components/task-form";
 
-@use "layout/content-layout";
+@use "layout/base-layout";
 
 @use "pages/details-page";
 @use "pages/principal-page";

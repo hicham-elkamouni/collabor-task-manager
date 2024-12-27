@@ -1,7 +1,12 @@
+import { AppRoutes } from "@routes/routes";
+import "./main.css";
+
 function App() {
   return (
-    <div>
-      <div className={"container"}>just for testing</div>
+    <div className="base-layout">
+      <div className="content-layout">
+        <AppRoutes />
+      </div>
     </div>
   );
 }

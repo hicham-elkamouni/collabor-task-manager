@@ -1,7 +1,34 @@
 {
-  "posts": [
-    { "id": 1, "title": "Hello World", "content": "This is a post" },
-    { "id": 2, "title": "Hello World", "content": "This is a post" },
-    { "id": 3, "title": "Hello World", "content": "This is a post" }
+  "tasks": [
+    {
+      "id": "7894",
+      "title": "Update user authentication module",
+      "status": "completed",
+      "description": "Refactoring authentication for security."
+    },
+    {
+      "id": "4321",
+      "title": "Integrate third-party API",
+      "status": "completed",
+      "description": "Integrated external API successfully."
+    },
+    {
+      "id": "3402",
+      "title": "Database optimization",
+      "status": "pending",
+      "description": "Optimizing database queries performance."
+    },
+    {
+      "id": "9987",
+      "title": "Implement logging system",
+      "status": "pending",
+      "description": "Adding logging for system errors."
+    },
+    {
+      "id": "1256",
+      "title": "Deploy new features to production",
+      "status": "pending",
+      "description": "Preparing features for deployment."
+    }
   ]
 }

@@ -52,7 +52,11 @@
       "@api/*": [
         "src/api/*"
       ],
-    }
+    },
+    "types": [
+      "vite/client",
+      "vitest/globals" // Add this line to enable Vitest types
+    ]
   },
   "include": [
     "src"
